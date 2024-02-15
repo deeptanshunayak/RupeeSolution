@@ -265,6 +265,7 @@ code {
   border-radius:35px;
   border:1px solid black;
   color: #fff;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 .vb1{
   background-color: #F9F4F1;
