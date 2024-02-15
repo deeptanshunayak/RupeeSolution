@@ -13,6 +13,9 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+.theoverflow{
+  overflow-x: hidden;
+}
 .iconic{
   
   background: url("../src/images/bgicon.svg");
@@ -255,7 +258,26 @@ code {
 .thesetter{
   color: #0F0049;
 }
-
+.vb{
+  background-color: #5C50F8;
+  width: 451px;
+  height:250px;
+  border-radius:35px;
+  border:1px solid black;
+  color: #fff;
+}
+.vb1{
+  background-color: #F9F4F1;
+  width: 450px;
+  height:185px;
+  color:#5C50F8;
+  border-radius:35px;
+   border:1px solid black;
+ 
+}
+.adjuster{
+  padding-left: 12rem;
+}
 .slider1{
   margin: 20px;
   width: 300px;
@@ -437,6 +459,15 @@ background: #3498db;
   .slider1{
     width: 240px;
     
+  }
+  .vb{
+  width: 331px;
+  font-size: x-small;
+  height: 200px;
+  }
+  .vb1{
+  width: 330px;
+  height: 150px;
   }
   .fonte{
     font-size: 11px;

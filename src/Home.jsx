@@ -149,7 +149,7 @@ const Home = () => {
                 </div>
             </section>
             <section id="gapper">
-                <div className="row">
+                <div className="row pt-5">
                     <div className="col-10 mx-auto">
                         <div className="my-4">
                             <h1 className="text-left fade-in">Credit Cards And Loans</h1>
@@ -302,14 +302,14 @@ const Home = () => {
                                 </div>
                             </div>
                             <div className="col">
-                                <div className="imager pt-5 ps-5">
+                                <div className="pt-5">
 
-                                    <img src={emi1} className="img-fluid" alt="home img" />
+                                    {/* <img src={emi1} className="img-fluid" alt="home img" /> */}
 
                                     {/* <TableDetails pAmount={pAmount} interest={interest} duration={duration} emi={emi} TotalAmountOfInterest={TotalAmountOfInterest} totalAmt={totalAmt} /> */}
 
 
-                                    <div className="texte">
+                                    {/* <div className="texte">
                                         <div className="row  pro">
                                             <div className="col fonter pe-2 text-primary">Principal Amount</div>
                                             <div className="col fonter  text-primary ">₹{pAmount}</div>
@@ -326,10 +326,34 @@ const Home = () => {
                                             <div className="col text-light fonter">Monthly Loan Emi</div>
                                             <div className="col text-light fonter">₹{emi}</div>
                                         </div>
-                                        {/* <p className="fonte text-primary">Principal Amount<span className="gap"></span>₹{pAmount}</p>
+                                {/* <p className="fonte text-primary">Principal Amount<span className="gap"></span>₹{pAmount}</p>
                                 <p className="fonte text-primary">Interest Payable<span className="gap2"></span>₹{TotalAmountOfInterest}</p>
                                 <p className="fonte pt-2">Total Payable Amount<span className="gap1"></span>₹{totalAmt}</p>
-                                <p className="fonte pt-4 text-light">Monthly Loan Emi <span className="gap"></span>₹{emi}</p> */}
+                                <p className="fonte pt-4 text-light">Monthly Loan Emi <span className="gap"></span>₹{emi}</p> 
+                                    </div> */}
+                                    <div className="vb">
+                                        <div className="vb1">
+                                            <div className="row pt-4">
+                                                <div className="col ps-5">Principal Amount</div>
+                                                <div className="col text-end pe-5">₹{pAmount}</div>
+                                            </div>
+                                            <div className="row">
+                                                <div className="col ps-5"></div>
+                                                <div className="col text-center ps-5 text-dark">+</div>
+                                            </div>
+                                            <div className="row">
+                                                <div className="col ps-5">Interest Payable</div>
+                                                <div className="col text-end pe-5">₹{TotalAmountOfInterest}</div>
+                                            </div>
+                                            <div className="row pt-4">
+                                                <div className="col ps-5 text-dark">Total Payable Amount</div>
+                                                <div className="col text-end pe-5 text-dark">₹{totalAmt}</div>
+                                            </div>
+                                        </div>
+                                        <div className="row pt-3">
+                                                <div className="col ps-5">Monthly Loan Emi</div>
+                                                <div className="col text-end pe-5 ">₹{emi}</div>
+                                            </div>
                                     </div>
                                     <div className="mt-3 spadder">
                                         <NavLink to="/" className="btn-get-started1">Get Started</NavLink>
@@ -342,7 +366,7 @@ const Home = () => {
                 </div>
             </section>
             <section className="boom">
-                <div className="row justify-content-center">
+                <div className="row justify-content-center pt-3">
                     <div className="col-10 mx-auto">
                         <AccordionUsage></AccordionUsage>
                     </div>

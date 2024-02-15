@@ -6,6 +6,7 @@ import AccordionUsage from './AccordionUsage'
 export default function Loanpage5() {
     return (
         <>
+        <div className='theoverflow'>
             <div className="row">
                 <div className="col-10 mx-auto">
                     <hr></hr>
@@ -67,6 +68,7 @@ export default function Loanpage5() {
                     
                 </div>
             </div>
+          </div>  
             <section id='ruloans'>
             <div className="col-10 mx-auto pt-5">
                 <div className='row'>
